@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Car Race</title>
+</head>
+<body>
+    <div id="container">
+        <div id="road">
+            <div id="car1"></div>
+            <div id="separator"></div>
+            <div id="car2"></div>
+        </div>
+        <div id="controls">
+            <label>Object1 Speed: </label>
+            <input type="number" id="speed1" value="100"/>
+            <br><br>
+            <label>Object2 Speed: </label>
+            <input type="number" id="speed2" value="80"/>
+            <br><br>
+            <button id="start" onclick="start()">START</button>
+            <button id="stop" onclick="stop()">STOP</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
